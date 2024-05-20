@@ -68,12 +68,11 @@ x64/
 *.tlh
 *.tmp
 *.tmp_proj
-*.log
+*.*log
 *.vspscc
 *.vssscc
 .builds
 *.pidb
-*.log
 *.scc
 *.g.cs
 
