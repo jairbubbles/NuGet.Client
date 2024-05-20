@@ -1303,6 +1303,10 @@ namespace NuGet.Commands
                 {
                     failed = true;
                 }
+                catch (AggregateException e) when (e.InnerException is FatalProtocolException)
+                {
+                    failed = true;
+                }
             }
 
             if (!failed)
